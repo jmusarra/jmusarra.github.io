@@ -1,13 +1,27 @@
 @font-face {
     font-family: Lora;
     src: url(../fonts/Lora-Regular.ttf);
-    font-weight:400;
+    font-weight: 400;
 }
 
 body {
     font-family: Lora;
+    padding: 10px;
 }
 
 h1 {
-    text-shadow: 1px 1px #999999;
+    font-size: 250%;
+    text-shadow: 1px 1px #aaaaaa;
+}
+
+#socialPane {
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    margin-bottom: 3px;
+}
+
+
+#socialPane > img {
+    padding: 3px;
 }
