@@ -5,6 +5,8 @@
 }
 
 body {
+    background-image: url(../img/squared_metal.png);
+    background-attachment: fixed;
     font-family: Lora;
     padding: 10px;
 }
