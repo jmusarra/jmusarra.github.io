@@ -16,14 +16,24 @@ h1 {
     text-shadow: 1px 1px #aaaaaa;
 }
 
-#socialPane {
+.socialPane {
     position: fixed;
     bottom: 0px;
     left: 50%;
-    margin-bottom: 3px;
 }
 
 
-#socialPane > img {
-    padding: 3px;
+.twiIcon {
+    background-image: url(../img/Twitter.png);
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.gitIcon {
+    background-image: url(../img/Github.png);
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    
 }
