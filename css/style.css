@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(../img/squared_metal.png);
+    background-image: url(../img/squared_metal_dark.png);
     background-attachment: fixed;
     font-family: Lora;
     padding: 10px;
@@ -13,7 +13,19 @@ body {
 
 h1 {
     font-size: 250%;
-    text-shadow: 1px 1px #aaaaaa;
+    text-shadow: 1px 1px #555555;
+}
+
+.box {
+    background-color: #cdced4;
+    width: 40%;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid #afaeb3;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 6px #555555;
 }
 
 .socialPane {
@@ -35,5 +47,4 @@ h1 {
     display: inline-block;
     width: 48px;
     height: 48px;
-    
 }
