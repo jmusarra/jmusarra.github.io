@@ -5,33 +5,61 @@
 }
 
 body {
-    background-image: url(../img/squared_metal_dark.png);
+    background: url("../img/wild_oliva.png") repeat scroll 0% 0% #202020;
     background-attachment: fixed;
     font-family: Lora;
     padding: 10px;
 }
 
+a {
+    color: #113c9d;
+}
+
+a:visited {
+    color: #313c56
+}
+
 h1 {
     font-size: 250%;
-    text-shadow: 1px 1px #555555;
+    text-shadow: 1px 1px 3px #15223a;
+    opacity: 1.0;
+}
+
+h2 {
+    text-shadow: 1px 1px 3px #15223a;
+    opacity: 1.0;
+}
+
+.box a {
+    text-decoration: none;
+    border-bottom: 2px dotted #838790;
+}
+
+.box a:hover {
+    border-bottom: 2px dotted white;
 }
 
 .box {
-    background-color: #cdced4;
+    color: #838790;
+    background-color: #2d3544;
     width: 45%;
     height: 300px;
     padding: 20px;
-    border: 1px solid #afaeb3;
-    margin-top: 40px;
+    border: 3px solid #15223a;
+    border-radius: 16px;
+    margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 5px 5px 6px #555555;
+    box-shadow: 6px 6px 8px #111111;
+    opacity: 0.75;
 }
 
 .socialPane {
+    width: 120px;
     position: fixed;
     bottom: 0px;
     left: 50%;
+    margin-left: -60px;
 }
 
 
