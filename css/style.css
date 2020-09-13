@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url("../img/wild_oliva.png") repeat scroll 0% 0% #202020;
+    background: url("../img/use_your_illusion.png") repeat scroll 0% 0% #202020;
     background-attachment: fixed;
     font-family: Lora;
     padding: 10px;
@@ -16,7 +16,7 @@ a {
 }
 
 a:visited {
-    color: #313c56
+    color: #113c9d;
 }
 
 h1 {
@@ -40,7 +40,7 @@ h2 {
 }
 
 .box {
-    color: #838790;
+    color: #a3a7b0;
     background-color: #2d3544;
     width: 45%;
     height: 300px;
